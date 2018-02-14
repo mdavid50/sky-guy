@@ -113,7 +113,7 @@
     <div class="what-we-do">
         <div class="text-center"><h4>REDEFINING YOUR VIEW OF THE WORLD</h4></div>
         <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-5 p-4">
                 <p class="general-info">We are dedicated to giving you a cost effective and safe solution to:</p>
                 <ul>
                     <li>Real Estate Videos and Images</li>
@@ -135,8 +135,8 @@
             </div>
             <div class="col-sm-7">
                 <div class="row">
-                    <img src="images/cell-tower.jpeg" alt="" class="col-6">
-                    <img src="images/construction.jpeg" alt="" class="col-6">
+                    <img src="images/cell-tower.jpeg" alt="" class="image-thumbnail col-6" style="height: 200px; width: 200px" >
+                    <img src="images/construction.jpeg" alt="" class="image-thumbnail col-6" style="height: 200px; width: 200px"">
                 </div>
             </div>
         </div>
