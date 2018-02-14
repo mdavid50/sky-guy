@@ -45,7 +45,7 @@
 <body>
 
 <section class="welcome">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand bg-primary text-white" href="#"><h2><img class="bg-primary h-5 text-white" src="images/drone-cam-little.png">SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
