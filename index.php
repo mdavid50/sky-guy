@@ -46,7 +46,7 @@
 
 <section class="welcome">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white" href="#"><h2>SkyGuy</h2></a>
+        <a class="navbar-brand text-white" href="#"><h2><i class="fa fa-paper-plane mr-2"></i>SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
