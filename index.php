@@ -45,45 +45,68 @@
 <body>
 
 <section class="welcome">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" href="#"><h2>SkyGuy</h2></a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white" href="#"><h2>SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto text-white">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="https://mdav36.com/~mdav/sky-guy/index.php#">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Real Estate</a>
+                    <a class="nav-link text-white" href="#">Real Estate</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inspections</a>
+                    <a class="nav-link text-white" href="#">Inspections</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link text-white" href="#">Gallery</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link text-white" href="#">About Us</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inspections</a>
+                    <a class="nav-link text-white" href="#">Inspections</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#">Contact</a>
                 </li>
             </ul>
 
         </div>
     </nav>
 
-    <div class="welcome-image">
-        <div class="row">
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/balloon-river-mist.jpg" data-src="holder.js/900x400?theme=social" alt="balloons over misty river" data-holder-rendered="true" style="width: 900px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/balloons-pretty-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="pretty balloons in the morning" data-holder-rendered="true" style="width: 900px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/sunrise-balloon.jpg" data-src="holder.js/900x400?theme=industrial" alt="sunrise" data-holder-rendered="true" style="width: 900px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/bridge-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="bridge with balloons in background" data-holder-rendered="true" style="width: 900px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/golf-course.jpg" data-src="holder.js/900x400?theme=industrial" alt="albuquerque golf course" data-holder-rendered="true" style="width: 900px; height: 500px;">
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+
 </section>
 
 <section class="info">
