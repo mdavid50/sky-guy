@@ -45,7 +45,7 @@
 <body>
 
 <section class="welcome">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand text-white" href="#"><h2><img class="bg-primary h-5 text-white" src="images/drone-cam-little.png">SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -94,7 +94,7 @@
                 <img class="d-block w-100" src="images/bridge-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="bridge with balloons in background" data-holder-rendered="true" style="width: 900px; height: 600px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/golf-course.jpg" data-src="holder.js/900x400?theme=industrial" alt="albuquerque golf course" data-holder-rendered="true" style="width: 900px; height: 500px;">
+                <img class="d-block w-100" src="images/golf-course.jpg" data-src="holder.js/900x400?theme=industrial" alt="albuquerque golf course" data-holder-rendered="true" style="width: 900px; height: 600px;">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -141,8 +141,8 @@
                     <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-5" style="height: 18em; width: 18em">
                 </div>
                 <div class="row">
-                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-5" style="height: 18em; width: 18em">
-                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-5" style="height: 18em; width: 18em">
+                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-5 mt-4" style="height: 18em; width: 18em">
+                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-5 mt-4" style="height: 18em; width: 18em">
                 </div>
             </div>
         </div>
