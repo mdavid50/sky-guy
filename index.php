@@ -111,8 +111,28 @@
 
 <section class="info">
     <div class="what-we-do">
+        <div class="text-center"><h4>REDEFINING YOUR VIEW OF THE WORLD</h4></div>
         <div class="row">
+            <div class="col-sm-5">
+                <p class="general-info">We are dedicated to giving you a cost effective and safe solution to:</p>
+                <ul>
+                    <li>Real Estate Videos and Images</li>
 
+                    <li>Event Videos and Images</li>
+
+                    <li>Roof Inspections</li>
+
+                    <li>Construction Progress Management</li>
+
+                    <li>Thermal Imaging</li>
+
+                    <li>Solar Inspection</li>
+
+                    <li>Communication Tower Inspection</li>
+
+                    <li>Bridge Inspection</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
