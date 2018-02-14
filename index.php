@@ -133,6 +133,12 @@
                     <li>Bridge Inspection</li>
                 </ul>
             </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <img src="images/cell-tower.jpeg" alt="" class="col-6">
+                    <img src="images/construction.jpeg" alt="" class="col-6">
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -143,9 +149,3 @@
     </div>
 </section>
 </body>
-<div class="col-4">
-
-</div>
-<div class="col-8">
-
-</div>
