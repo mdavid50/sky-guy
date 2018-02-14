@@ -45,7 +45,7 @@
 <body>
 
 <section class="welcome">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand text-white" href="#"><h2><i class="fa fa-paper-plane mr-2"></i>SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -82,16 +82,16 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="images/balloon-river-mist.jpg" data-src="holder.js/900x400?theme=social" alt="balloons over misty river" data-holder-rendered="true" style="width: 900px; height: 500px;">
+                <img class="d-block w-100" src="images/balloon-river-mist.jpg" data-src="holder.js/900x400?theme=social" alt="balloons over misty river" data-holder-rendered="true" style="width: 900px; height: 600px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/balloons-pretty-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="pretty balloons in the morning" data-holder-rendered="true" style="width: 900px; height: 500px;">
+                <img class="d-block w-100 h-40vh" src="images/balloons-pretty-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="pretty balloons in the morning" data-holder-rendered="true" style="width: 900px; height: 600px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/sunrise-balloon.jpg" data-src="holder.js/900x400?theme=industrial" alt="sunrise" data-holder-rendered="true" style="width: 900px; height: 500px;">
+                <img class="d-block w-100" src="images/sunrise-balloon.jpg" data-src="holder.js/900x400?theme=industrial" alt="sunrise" data-holder-rendered="true" style="width: 900px; height: 600px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/bridge-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="bridge with balloons in background" data-holder-rendered="true" style="width: 900px; height: 500px;">
+                <img class="d-block w-100" src="images/bridge-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="bridge with balloons in background" data-holder-rendered="true" style="width: 900px; height: 600px;">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="images/golf-course.jpg" data-src="holder.js/900x400?theme=industrial" alt="albuquerque golf course" data-holder-rendered="true" style="width: 900px; height: 500px;">
@@ -109,12 +109,14 @@
 
 </section>
 
-<section class="info">
+<section class="info bg-primary">
     <div class="what-we-do">
-        <div class="text-center"><h4>REDEFINING YOUR VIEW OF THE WORLD</h4></div>
+        <div class="text-center p-5">
+            <h3>REDEFINING YOUR VIEW OF THE WORLD</h3>
+        </div>
         <div class="row">
-            <div class="col-sm-5 p-4">
-                <p class="general-info">We are dedicated to giving you a cost effective and safe solution to:</p>
+            <div class="col-sm-4 m-4">
+                <p class="general-info"><strong>We are dedicated to giving you a cost effective and safe solution to:</strong></p>
                 <ul>
                     <li>Real Estate Videos and Images</li>
 
@@ -135,8 +137,8 @@
             </div>
             <div class="col-sm-7">
                 <div class="row">
-                    <img src="images/cell-tower.jpeg" alt="" class="image-thumbnail col-6" style="height: 200px; width: 200px" >
-                    <img src="images/construction.jpeg" alt="" class="image-thumbnail col-6" style="height: 200px; width: 200px"">
+                    <img src="images/cell-tower.jpeg" alt="" class="image-thumbnail col-5" style="height: 18em; width: 18em" >
+                    <img src="images/construction.jpeg" alt="" class="image-thumbnail col-5" style="height: 18em; width: 18em"">
                 </div>
             </div>
         </div>
