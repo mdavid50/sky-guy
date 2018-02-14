@@ -46,7 +46,7 @@
 
 <section class="welcome">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white" href="#"><h2><i class="fa fa-paper-plane mr-2"></i>SkyGuy</h2></a>
+        <a class="navbar-brand text-white" href="#"><h2><img class="bg-primary h-5" src="images/drone-cam-little.png">SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -139,6 +139,9 @@
                 <div class="row">
                     <img src="images/cell-tower.jpeg" alt="" class="image-thumbnail col-5" style="height: 18em; width: 18em" >
                     <img src="images/construction.jpeg" alt="" class="image-thumbnail col-5" style="height: 18em; width: 18em"">
+                </div>
+                <div class="row">
+                    
                 </div>
             </div>
         </div>
