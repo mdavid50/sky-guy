@@ -46,7 +46,7 @@
 
 <section class="welcome">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-white" href="#"><h2><img class="bg-primary h-5" src="images/drone-cam-little.png">SkyGuy</h2></a>
+        <a class="navbar-brand text-white" href="#"><h2><img class="bg-primary h-5 text-white" src="images/drone-cam-little.png">SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -137,11 +137,12 @@
             </div>
             <div class="col-sm-7">
                 <div class="row">
-                    <img src="images/cell-tower.jpeg" alt="" class="image-thumbnail col-5" style="height: 18em; width: 18em" >
-                    <img src="images/construction.jpeg" alt="" class="image-thumbnail col-5" style="height: 18em; width: 18em"">
+                    <img src="images/cell-tower.jpeg" alt="communication tower" class="image-thumbnail col-5" style="height: 18em; width: 18em" >
+                    <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-5" style="height: 18em; width: 18em">
                 </div>
                 <div class="row">
-                    
+                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-5" style="height: 18em; width: 18em">
+                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-5" style="height: 18em; width: 18em">
                 </div>
             </div>
         </div>
