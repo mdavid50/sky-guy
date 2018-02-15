@@ -115,7 +115,7 @@
             <h3>REDEFINING YOUR VIEW OF THE WORLD</h3>
         </div>
         <div class="row">
-            <div class="col-sm-4 m-4">
+            <div class="col-m-5 m-4">
                 <p class="general-info"><strong>We are dedicated to giving you a cost effective and safe solution to:</strong></p>
                 <ul>
                     <li>Real Estate Videos and Images</li>
@@ -135,14 +135,14 @@
                     <li>Bridge Inspection</li>
                 </ul>
             </div>
-            <div class="col-sm-7">
+            <div class="col-m-7 d-m-flex justify-content-center">
                 <div class="row">
-                    <img src="images/cell-tower.jpeg" alt="communication tower" class="image-thumbnail col-5" style="height: 18em; width: 18em" >
-                    <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-5" style="height: 18em; width: 18em">
+                    <img src="images/cell-tower.jpeg" alt="communication tower" class="m-4 col-m-5" style="height: 18em; width: 18em" >
+                    <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-m-5 m-4" style="height: 18em; width: 18em">
                 </div>
                 <div class="row">
-                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-5 mt-4" style="height: 18em; width: 18em">
-                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-5 mt-4" style="height: 18em; width: 18em">
+                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-m-5 m-4" style="height: 18em; width: 18em">
+                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-m-5 m-4" style="height: 18em; width: 18em">
                 </div>
             </div>
         </div>
@@ -151,7 +151,26 @@
 
 <section class="contact-form">
     <div class="row">
-
+        <div class="col-sm-12 col-md-8 col-lr-8">
+            <h2>Contact</h2>
+            <form id="contact-form" action="php/mailer.php" method="post" novalidate>
+                <label>Name</label>
+                <input name="name" id="name" placeholder="Type Here">
+                <label>Email</label>
+                <input name="email" type="email" id="email" placeholder="Type Here">
+                <label>Message</label>
+                <textarea name="message" placeholder="Type Here"></textarea>
+                <!-- reCAPTCHA -->
+                <div class="g-recaptcha" data-sitekey="6LewlToUAAAAAD0kkIwEBUKexyWp-u-dkIh0KQQq"></div>
+                <input id="submit" name="submit" type="submit" value="Submit">
+            </form>
+            <!--empty area for form error/success output-->
+            <div class="row">
+                <div class="col">
+                    <div id="output-area"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 </body>
