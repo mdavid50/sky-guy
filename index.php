@@ -46,7 +46,7 @@
 
 <section class="welcome">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand bg-primary text-white" href="#"><h2><img class="bg-primary h-5 text-white" src="images/drone-cam-little.png">SkyGuy</h2></a>
+        <a class="navbar-brand bg-primary text-white" href="#"><h2><img class="h-5 text-white" src="images/drone-cam-little.png">SkyGuy</h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -178,9 +178,9 @@
 
 <footer>
     <div class="container-fluid bg-dark text-white">
-        <div class="row">
-            <div class="col-4 mt-4">
-                <h2 class="bg-primary"><img src="images/drone-cam-little.png">SkyGuy</h2>
+        <div class="row pt-4">
+            <div class="col-4">
+                <h2 class=""><img src="images/drone-cam-little.png">SkyGuy</h2>
             </div>
             <div class="col-4">
                 <ul class="list-unstyled text-center">
