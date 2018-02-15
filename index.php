@@ -149,17 +149,18 @@
     </div>
 </section>
 
-<section class="contact-form">
-    <div class="row">
-        <div class="col-sm-12 col-md-8 col-lr-8">
-            <h2>Contact</h2>
-            <form id="contact-form" action="php/mailer.php" method="post" novalidate>
+<section class="contact-form bg-dark">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-12 text-white">
+            <h2 class="text-white">Contact</h2>
+            <form id="contact-form" action="php/mailer.php" method="post" novalidate class="justify-content-center">
                 <label>Name</label>
-                <input name="name" id="name" placeholder="Type Here">
+                <input name="name" id="name" placeholder="Type Here" class="align-self-baseline">
                 <label>Email</label>
                 <input name="email" type="email" id="email" placeholder="Type Here">
                 <label>Message</label>
-                <textarea name="message" placeholder="Type Here"></textarea>
+                <textarea name="message" placeholder="Type Here" class="w-50 align-content-start"></textarea>
                 <!-- reCAPTCHA -->
                 <div class="g-recaptcha" data-sitekey="6LewlToUAAAAAD0kkIwEBUKexyWp-u-dkIh0KQQq"></div>
                 <input id="submit" name="submit" type="submit" value="Submit">
@@ -172,5 +173,23 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
+
+<footer>
+    <div class="container-fluid bg-dark text-white">
+        <div class="row">
+            <div class="col-4 mt-4">
+                <h2 class="bg-primary"><img src="images/drone-cam-little.png">SkyGuy</h2>
+            </div>
+            <div class="col-4">
+                <ul class="list-unstyled text-center">
+                    <li>Founder and CEO- Jeremy MacClellan</li>
+                    <li>FAA Lic #- I don't know</li>
+                    <li>Insurance info...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
