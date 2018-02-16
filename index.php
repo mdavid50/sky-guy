@@ -46,7 +46,7 @@
 
 <section class="welcome">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-white" href="#"><h2><img class="h-5 text-white" src="images/drone-cam-little.png">SkyGuy</h2></a>
+        <a class="navbar-brand text-white" href="#"><h2>SkyGuy Arial Imagery<img class="h-5 text-white" src="images/drone-cam-little.png"></h2></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -152,15 +152,15 @@
 <section class="contact-form bg-dark">
     <div class="container-fluid">
         <div class="row">
-        <div class="col-sm-12 text-white">
-            <h2 class="text-white">Contact</h2>
+        <div class="col-sm-12 text-white ">
+            <h2 class="text-white text-center">Contact</h2>
             <form id="contact-form" action="php/mailer.php" method="post" novalidate class="justify-content-center">
                 <label class="d-block">Name</label>
                 <input name="name" id="name" placeholder="Type Here" class="align-self-baseline">
                 <label class="d-block">Email</label>
                 <input name="email" type="email" id="email" placeholder="Type Here">
                 <label class="d-block">Message</label>
-                <textarea name="message" placeholder="Type Here" class="w-50 align-content-start"></textarea>
+                <textarea name="message" placeholder="Type Here" class="w-75 align-content-start"></textarea>
                 <!-- reCAPTCHA -->
                 <div class="g-recaptcha" data-sitekey="6LedpEYUAAAAAK0GBJeclMPUyj7k2v8dcvs3Il5l"></div>
                 <input id="submit" name="submit" type="submit" value="Submit">
@@ -180,7 +180,7 @@
     <div class="container-fluid bg-dark text-white">
         <div class="row pt-4">
             <div class="col-4">
-                <h2 class=""><img src="images/drone-cam-little.png">SkyGuy</h2>
+                <h2 class="">SkyGuy Arial Imagery<img src="images/drone-cam-little.png"></h2>
             </div>
             <div class="col-4">
                 <ul class="list-unstyled text-center">
