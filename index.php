@@ -136,13 +136,13 @@
                 </ul>
             </div>
             <div class="col-m-7 d-m-flex justify-content-center">
-                <div class="row">
-                    <img src="images/cell-tower.jpeg" alt="communication tower" class="m-4 col-m-5" style="height: 23em; width: 23em" >
-                    <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-m-5 m-4" style="height: 23em; width: 23em">
+                <div class="row mx-auto d-block">
+                    <img src="images/cell-tower.jpeg" alt="communication tower" class="image-fluid pl-4 col-l-5" style="height: 23em" >
+                    <img src="images/construction.jpeg" alt="construction project" class="image-fluid col-l-5 pl-4" style="height: 23em">
                 </div>
-                <div class="row">
-                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-m-5 m-4" style="height: 23em; width: 23em">
-                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-m-5 m-4" style="height: 23em; width: 23em">
+                <div class="row mx-auto d-block">
+                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-fluid col-l-5 pl-4" style="height: 23em">
+                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-fluid col-l-5 pl-4" style="height: 23em">
                 </div>
             </div>
         </div>
@@ -155,11 +155,11 @@
         <div class="col-sm-12 text-white">
             <h2 class="text-white">Contact</h2>
             <form id="contact-form" action="php/mailer.php" method="post" novalidate class="justify-content-center">
-                <label>Name</label>
+                <label class="d-block">Name</label>
                 <input name="name" id="name" placeholder="Type Here" class="align-self-baseline">
-                <label>Email</label>
+                <label class="d-block">Email</label>
                 <input name="email" type="email" id="email" placeholder="Type Here">
-                <label>Message</label>
+                <label class="d-block">Message</label>
                 <textarea name="message" placeholder="Type Here" class="w-50 align-content-start"></textarea>
                 <!-- reCAPTCHA -->
                 <div class="g-recaptcha" data-sitekey="6LedpEYUAAAAAK0GBJeclMPUyj7k2v8dcvs3Il5l"></div>
