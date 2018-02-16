@@ -137,12 +137,12 @@
             </div>
             <div class="col-m-7 d-m-flex justify-content-center">
                 <div class="row">
-                    <img src="images/cell-tower.jpeg" alt="communication tower" class="m-4 col-m-5" style="height: 18em; width: 18em" >
-                    <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-m-5 m-4" style="height: 18em; width: 18em">
+                    <img src="images/cell-tower.jpeg" alt="communication tower" class="m-4 col-m-5" style="height: 23em; width: 23em" >
+                    <img src="images/construction.jpeg" alt="construction project" class="image-thumbnail col-m-5 m-4" style="height: 23em; width: 23em">
                 </div>
                 <div class="row">
-                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-m-5 m-4" style="height: 18em; width: 18em">
-                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-m-5 m-4" style="height: 18em; width: 18em">
+                    <img src="images/night-view.jpeg" alt="building with lights on" class="image-thumbnail col-m-5 m-4" style="height: 23em; width: 23em">
+                    <img src="images/fall-trees.jpeg" alt="trees changing color" class="image-thumbnail col-m-5 m-4" style="height: 23em; width: 23em">
                 </div>
             </div>
         </div>
