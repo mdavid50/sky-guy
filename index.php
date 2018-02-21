@@ -46,8 +46,8 @@
 
 <section class="welcome">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-white" href="#"><h2>SkyGuy Arial Imagery<img class="h-5 text-white" src="images/drone-cam-little.png"></h2></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <h2 class="text-white">SkyGuy Arial Imagery<img class="h-5 text-white" src="images/drone-cam-little.png"></h2></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -127,6 +127,8 @@
 
                     <li>Construction Progress Management</li>
 
+                    <li>Building Lights Inspection</li>
+
                     <li>Thermal Imaging</li>
 
                     <li>Solar Inspection</li>
@@ -140,12 +142,12 @@
         </div>
             <div class="container">
                 <div class="row justify-content-center">
-                    <img src="images/cell-tower.jpeg" alt="communication tower" class="p-2 col-l-5" style="height: 28rem; width: 35rem" >
-                    <img src="images/construction.jpeg" alt="construction project" class="col-l-5 p-2" style="height: 28rem; width: 35rem">
+                    <img src="images/cell-tower-3.5x3.5.jpeg" alt="communication tower" class="p-2 col" style="height: 28rem; width: 35rem" >
+                    <img src="images/construction-3.5x3.5.jpeg" alt="construction project" class="col p-2" style="height: 28rem; width: 35rem">
                 </div>
                 <div class="row justify-content-center">
-                    <img src="images/night-view-3.5x3.5.jpeg" alt="building with lights on" class="col-l-5 p-2 justify-content-between" style="height: 28rem; width: 35rem;">
-                    <img src="images/fall-trees-3.5x3.5.jpeg" alt="trees changing color" class="col-l-5 p-2 justify-content-between" style="height: 28rem; width: 35rem">
+                    <img src="images/night-view-3.5x3.5.jpeg" alt="building with lights on" class="col p-2 justify-content-between" style="height: 28rem; width: 35rem;">
+                    <img src="images/fall-trees-3.5x3.5.jpeg" alt="trees changing color" class="col p-2 justify-content-between" style="height: 28rem; width: 35rem">
                 </div>
             </div>
 
