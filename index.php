@@ -125,7 +125,7 @@
 <section class="info bg-primary">
     <div class="what-we-do">
         <div class="text-center pt-3">
-            <h2>REDEFINING YOUR VIEW OF THE WORLD</h2>
+            <h1>REDEFINING YOUR VIEW OF THE WORLD</h1>
         </div>
         <div class="container-fluid">
             <div class="row d-block">
@@ -169,7 +169,7 @@
     <div class="container-fluid">
         <div class="row">
         <div class="col-sm-12 text-white ">
-            <h2 class="text-white text-center">Contact</h2>
+            <h1 class="text-white text-center">Contact</h1>
             <form id="contact-form" action="php/mailer.php" method="post" novalidate class="justify-content-center">
                 <label class="d-block">Name</label>
                 <input name="name" id="name" placeholder="Type Here" class="align-self-baseline">
