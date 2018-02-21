@@ -52,27 +52,40 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto text-white">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="https://mdav36.com/~mdav/sky-guy/index.php#">Home</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Real Estate</a>
+                <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown"
+                       href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+                        Services</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#!">Real Estate</a>
+                        <a class="dropdown-item" href="#!">Construction</a>
+                        <a class="dropdown-item" href="#!">Inspections</a>
+                        <a class="dropdown-item" href="#!">Thermal Imaging</a>
+                        <a class="dropdown-item" href="#!">Event</a>
+                    </div>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Inspections</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Gallery</a>
+                <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown"
+                       href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+                        Gallery</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#!">Images</a>
+                        <a class="dropdown-item" href="#!">HD Video</a>
+                    </div>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="#">About Us</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Inspections</a>
-                </li>
+
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#!" target="_blank" class="navlink"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                 </li>
             </ul>
 
@@ -184,15 +197,18 @@
 <footer>
     <div class="container-fluid bg-dark text-white">
         <div class="row pt-4">
-            <div class="col-4">
+            <div class="col">
                 <h2 class="">SkyGuy Arial Imagery<img src="images/drone-cam-little.png"></h2>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <ul class="list-unstyled text-center">
                     <li>Founder and CEO- Jeremy MacClellan</li>
                     <li>FAA 107 Lic #- I don't know</li>
                     <li>Insurance info...</li>
                 </ul>
+            </div>
+            <div class="col align-self-center">
+                <p class="float-right">2017 SkyGuy Arial Imagery Inc, LLC</p>
             </div>
         </div>
     </div>
