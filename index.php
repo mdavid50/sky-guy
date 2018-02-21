@@ -127,40 +127,38 @@
         <div class="text-center pt-3">
             <h2>REDEFINING YOUR VIEW OF THE WORLD</h2>
         </div>
-        <div class="row">
-            <div class="container">
-                <div class=" m-4 text-center">
-                <h5 class="general-info"><strong>We are dedicated to giving you a cost effective and safe solution to:</strong></h5>
-                <ul class="list-unstyled">
-                    <li>Real Estate Videos and Images</li>
+        <div class="container-fluid">
+            <div class="row d-block">
+                    <h5 class="general-info p-2 text-center"><strong>We are dedicated to giving you a cost effective and safe solution to:</strong></h5>
+                    <ul class="list-unstyled p-2 text-center">
+                        <li>Real Estate Videos and Images</li>
 
-                    <li>Event Videos and Images</li>
+                        <li>Event Videos and Images</li>
 
-                    <li>Roof Inspections</li>
+                        <li>Roof Inspections</li>
 
-                    <li>Construction Progress Management</li>
+                        <li>Construction Progress Management</li>
 
-                    <li>Building Lights Inspection</li>
+                        <li>Building Lights Inspection</li>
 
-                    <li>Thermal Imaging</li>
+                        <li>Thermal Imaging</li>
 
-                    <li>Solar Inspection</li>
+                        <li>Solar Inspection</li>
 
-                    <li>Communication Tower Inspection</li>
+                        <li>Communication Tower Inspection</li>
 
-                    <li>Bridge Inspection</li>
-                </ul>
-            </div>
+                        <li>Bridge Inspection</li>
+                    </ul>
             </div>
         </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <img src="images/cell-tower-3.5x3.5.jpeg" alt="communication tower" class="p-2 col" style="height: 28rem; width: 35rem" >
-                    <img src="images/construction-3.5x3.5.jpeg" alt="construction project" class="col p-2" style="height: 28rem; width: 35rem">
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="images/cell-tower-3.5x3.5.jpeg" alt="communication tower" class="p-2 col" style="height: 28rem; width: 32rem" >
+                    <img src="images/construction-3.5x3.5.jpeg" alt="construction project" class="col p-2" style="height: 28rem; width: 32rem">
                 </div>
                 <div class="row justify-content-center">
-                    <img src="images/night-view-3.5x3.5.jpeg" alt="building with lights on" class="col p-2 justify-content-between" style="height: 28rem; width: 35rem;">
-                    <img src="images/fall-trees-3.5x3.5.jpeg" alt="trees changing color" class="col p-2 justify-content-between" style="height: 28rem; width: 35rem">
+                    <img src="images/night-view-3.5x3.5.jpeg" alt="building with lights on" class="col p-2 justify-content-between" style="height: 28rem; width: 32rem;">
+                    <img src="images/fall-trees-3.5x3.5.jpeg" alt="trees changing color" class="col p-2 justify-content-between" style="height: 28rem; width: 32rem">
                 </div>
             </div>
 
