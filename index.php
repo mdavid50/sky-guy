@@ -13,16 +13,16 @@
 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- font awesome -->
     <script src="https://use.fontawesome.com/02efcb04d1.js"></script>
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
     <!-- jQuery Form, Additional Methods, Validate -->
@@ -82,19 +82,19 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="images/balloon-river-mist.jpg" data-src="holder.js/900x400?theme=social" alt="balloons over misty river" data-holder-rendered="true" style="width: 900px; height: 600px;">
+                <img class="d-block w-100" src="images/balloon-river-mist.jpg" data-src="holder.js/900x400?theme=social" alt="balloons over misty river" data-holder-rendered="true" style="width: 900px; height: 675px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 h-40vh" src="images/balloons-pretty-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="pretty balloons in the morning" data-holder-rendered="true" style="width: 900px; height: 600px;">
+                <img class="d-block w-100 h-40vh" src="images/balloons-pretty-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="pretty balloons in the morning" data-holder-rendered="true" style="width: 900px; height: 675px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/sunrise-balloon.jpg" data-src="holder.js/900x400?theme=industrial" alt="sunrise" data-holder-rendered="true" style="width: 900px; height: 600px;">
+                <img class="d-block w-100" src="images/sunrise-balloon.jpg" data-src="holder.js/900x400?theme=industrial" alt="sunrise" data-holder-rendered="true" style="width: 900px; height: 675px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/bridge-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="bridge with balloons in background" data-holder-rendered="true" style="width: 900px; height: 600px;">
+                <img class="d-block w-100" src="images/bridge-balloons.jpg" data-src="holder.js/900x400?theme=industrial" alt="bridge with balloons in background" data-holder-rendered="true" style="width: 900px; height: 675px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/golf-course.jpg" data-src="holder.js/900x400?theme=industrial" alt="albuquerque golf course" data-holder-rendered="true" style="width: 900px; height: 600px;">
+                <img class="d-block w-100" src="images/golf-course.jpg" data-src="holder.js/900x400?theme=industrial" alt="albuquerque golf course" data-holder-rendered="true" style="width: 900px; height: 675px;">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -111,13 +111,14 @@
 
 <section class="info bg-primary">
     <div class="what-we-do">
-        <div class="text-center p-5">
-            <h3>REDEFINING YOUR VIEW OF THE WORLD</h3>
+        <div class="text-center pt-3">
+            <h2>REDEFINING YOUR VIEW OF THE WORLD</h2>
         </div>
         <div class="row">
-            <div class="col-m-5 m-4">
-                <p class="general-info"><strong>We are dedicated to giving you a cost effective and safe solution to:</strong></p>
-                <ul>
+            <div class="container">
+                <div class=" m-4 text-center">
+                <h5 class="general-info"><strong>We are dedicated to giving you a cost effective and safe solution to:</strong></h5>
+                <ul class="list-unstyled">
                     <li>Real Estate Videos and Images</li>
 
                     <li>Event Videos and Images</li>
@@ -135,17 +136,19 @@
                     <li>Bridge Inspection</li>
                 </ul>
             </div>
-            <div class="col-m-7 d-m-flex justify-content-center">
-                <div class="row mx-auto d-block">
-                    <img src="images/cell-tower.jpeg" alt="communication tower" class="image-fluid pl-4 col-l-5" style="height: 28em" >
-                    <img src="images/construction.jpeg" alt="construction project" class="image-fluid col-l-5 pl-4" style="height: 28em">
-                </div>
-                <div class="row mx-auto d-block">
-                    <img src="images/night-view-3.5x3.5.jpeg" alt="building with lights on" class="image-fluid col-m-5 pl-4" style="height: 28em">
-                    <img src="images/fall-trees-3.5x3.5.jpeg" alt="trees changing color" class="image-fluid col-m-5 pl-4" style="height: 28em">
-                </div>
             </div>
         </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <img src="images/cell-tower.jpeg" alt="communication tower" class="p-2 col-l-5" style="height: 28rem; width: 35rem" >
+                    <img src="images/construction.jpeg" alt="construction project" class="col-l-5 p-2" style="height: 28rem; width: 35rem">
+                </div>
+                <div class="row justify-content-center">
+                    <img src="images/night-view-3.5x3.5.jpeg" alt="building with lights on" class="col-l-5 p-2 justify-content-between" style="height: 28rem; width: 35rem;">
+                    <img src="images/fall-trees-3.5x3.5.jpeg" alt="trees changing color" class="col-l-5 p-2 justify-content-between" style="height: 28rem; width: 35rem">
+                </div>
+            </div>
+
     </div>
 </section>
 
@@ -185,7 +188,7 @@
             <div class="col-4">
                 <ul class="list-unstyled text-center">
                     <li>Founder and CEO- Jeremy MacClellan</li>
-                    <li>FAA Lic #- I don't know</li>
+                    <li>FAA 107 Lic #- I don't know</li>
                     <li>Insurance info...</li>
                 </ul>
             </div>
